@@ -1,4 +1,3 @@
-name: ocean_examples
 channels:
   - conda-forge
 dependencies:
