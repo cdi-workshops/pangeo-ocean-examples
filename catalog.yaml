@@ -13,9 +13,10 @@ sources:
         - satellite
     driver: zarr
     args:
-      urlpath: gcs://pangeo-data/dataset-duacs-rep-global-merged-allsat-phy-l4-v3-alt
+      urlpath: s3://pangeo-data-uswest2/dataset-duacs-rep-global-merged-allsat-phy-l4-v3-alt
       storage_options:
         token: anon
+        requester_pays: True
       consolidated: True
 
   ECCOv4r3:
